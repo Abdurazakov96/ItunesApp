@@ -7,10 +7,14 @@
 //
 
 import Foundation
+
+
 struct Model: Codable {
     
-     var artistName = ""
-     var trackName = ""
-     var artworkUrl100: URL!
     
+    //MARK: Public Properties
+    
+    var artistName = ""
+    var trackName = ""
+    var artworkUrl100: URL!
 }

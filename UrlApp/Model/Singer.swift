@@ -7,10 +7,14 @@
 //
 
 import Foundation
+
+
 struct Singer: Codable {
+    
+    
+    //MARK: Public Properties
     
     var resultCount: Int
     var results:
     [Model] 
-    
 }
